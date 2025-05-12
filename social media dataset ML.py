@@ -13,11 +13,8 @@ import matplotlib.pyplot as plt
 # In[2]:
 
 
-import os
-import pandas as pd
+df = pd.read_csv("/Users/asim/Downloads/students_social_media_addiction.csv")
 
-csv_path = os.path.join(os.path.dirname(__file__), "students_social_media_addiction.csv")
-df = pd.read_csv(csv_path)
 
 
 
