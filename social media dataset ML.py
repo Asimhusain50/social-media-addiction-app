@@ -658,7 +658,14 @@ print("R² Score:", r2_score(y_test, y_pred_lin))
 
 
 
-# In[ ]:
+# In[ ]:import os
+import pickle
+
+# Correct way to load model file on Streamlit Cloud
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model.pkl")
+with open(MODEL_PATH, "rb") as file:
+    model = pickle.load(file)
+
 
 
 
