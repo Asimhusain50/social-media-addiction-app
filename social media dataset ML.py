@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("/Users/asim/Downloads/Students Social Media Addiction.csv")
 
 
+
 # In[3]:
 
 
